@@ -126,4 +126,34 @@
  
  /************************************************
      SOLUZIONE RESPONSIVE
-  ************************************************/
+  ************************************************//* media query  */
+
+@media screen and (max-width: 1160px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row .col {
+        width: 100%;
+        padding: 10px;
+    }
+    .why-us {
+       padding: 30px;
+       margin-bottom: 30px;
+    }
+    .steps {
+        margin-bottom: 0rem;
+    }
+}
